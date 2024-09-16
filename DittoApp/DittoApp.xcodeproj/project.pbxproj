@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		231ECB70266FD7F3007E3911 /* DittoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 231ECB6F266FD7F3007E3911 /* DittoKit.framework */; };
+		231ECB71266FD7F3007E3911 /* DittoKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 231ECB6F266FD7F3007E3911 /* DittoKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		56542CAD26419F5200589867 /* DKThemeStyledTogglesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56542CAC26419F5200589867 /* DKThemeStyledTogglesViewController.swift */; };
+		8B43031761E4282C57DA9E4D /* Pods_DittoApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146CB207080510F2306956C0 /* Pods_DittoApp.framework */; };
+		A12DA53351810CC2A44975E1 /* Pods_DittoAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3158961CFECF6CCA57F7510C /* Pods_DittoAppTests.framework */; };
+		B1514921263A46B100B20FAC /* DKThemeStyledFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1514920263A46B100B20FAC /* DKThemeStyledFormViewController.swift */; };
+		B16F3F74261D3589007F7ACF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3F73261D3589007F7ACF /* AppDelegate.swift */; };
+		B16F3F78261D3589007F7ACF /* DKThemeStyledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3F77261D3589007F7ACF /* DKThemeStyledViewController.swift */; };
+		B16F3F7B261D3589007F7ACF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16F3F79261D3589007F7ACF /* Main.storyboard */; };
+		B16F3F80261D358B007F7ACF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16F3F7E261D358B007F7ACF /* LaunchScreen.storyboard */; };
+		B16F3FE1261D3709007F7ACF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16F3FE0261D3709007F7ACF /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16F3F87261D358B007F7ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16F3F68261D3589007F7ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16F3F6F261D3589007F7ACF;
+			remoteInfo = DittoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		231ECB72266FD7F3007E3911 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				231ECB71266FD7F3007E3911 /* DittoKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		146CB207080510F2306956C0 /* Pods_DittoApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DittoApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		231ECB6F266FD7F3007E3911 /* DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234B19912A217B0A0016B88B /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D0E5B5266FD65C00ED0960 /* DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D0E5BC266FD75F00ED0960 /* DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3158961CFECF6CCA57F7510C /* Pods_DittoAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DittoAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56542CAC26419F5200589867 /* DKThemeStyledTogglesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTogglesViewController.swift; sourceTree = "<group>"; };
+		6015ACDC5686B246111D81CC /* Pods-DittoAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoAppTests.release.xcconfig"; path = "Target Support Files/Pods-DittoAppTests/Pods-DittoAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		990154490055B153F896C215 /* Pods-DittoApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoApp.release.xcconfig"; path = "Target Support Files/Pods-DittoApp/Pods-DittoApp.release.xcconfig"; sourceTree = "<group>"; };
+		B1514920263A46B100B20FAC /* DKThemeStyledFormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKThemeStyledFormViewController.swift; sourceTree = "<group>"; };
+		B16F3F70261D3589007F7ACF /* DittoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DittoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F3F73261D3589007F7ACF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B16F3F77261D3589007F7ACF /* DKThemeStyledViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKThemeStyledViewController.swift; sourceTree = "<group>"; };
+		B16F3F7A261D3589007F7ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B16F3F7F261D358B007F7ACF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B16F3F81261D358B007F7ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F3F86261D358B007F7ACF /* DittoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F3F8C261D358B007F7ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F3FE0261D3709007F7ACF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B16F409C261D4265007F7ACF /* Ditto_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Ditto_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C69637261E444400D57E48 /* DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56442A3D9FB7EE4FC7983E4 /* Pods-DittoAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DittoAppTests/Pods-DittoAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7EE921AA504F82E4DBF40ED /* Pods-DittoApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoApp.debug.xcconfig"; path = "Target Support Files/Pods-DittoApp/Pods-DittoApp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16F3F6D261D3589007F7ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				231ECB70266FD7F3007E3911 /* DittoKit.framework in Frameworks */,
+				8B43031761E4282C57DA9E4D /* Pods_DittoApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3F83261D358B007F7ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12DA53351810CC2A44975E1 /* Pods_DittoAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8ABBB507C09AE1A8FCF6C749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7EE921AA504F82E4DBF40ED /* Pods-DittoApp.debug.xcconfig */,
+				990154490055B153F896C215 /* Pods-DittoApp.release.xcconfig */,
+				B56442A3D9FB7EE4FC7983E4 /* Pods-DittoAppTests.debug.xcconfig */,
+				6015ACDC5686B246111D81CC /* Pods-DittoAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		B16F3F67261D3589007F7ACF = {
+			isa = PBXGroup;
+			children = (
+				B16F3F72261D3589007F7ACF /* DittoApp */,
+				B16F3F89261D358B007F7ACF /* DittoAppTests */,
+				B16F3F71261D3589007F7ACF /* Products */,
+				CE0B7C87F2129AF7F97CAED3 /* Frameworks */,
+				8ABBB507C09AE1A8FCF6C749 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		B16F3F71261D3589007F7ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3F70261D3589007F7ACF /* DittoApp.app */,
+				B16F3F86261D358B007F7ACF /* DittoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16F3F72261D3589007F7ACF /* DittoApp */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FD3261D36AA007F7ACF /* Bundle */,
+				B16F3FD7261D36C0007F7ACF /* Demos */,
+				B16F3FDF261D3709007F7ACF /* Assets */,
+			);
+			path = DittoApp;
+			sourceTree = "<group>";
+		};
+		B16F3F89261D358B007F7ACF /* DittoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3F8C261D358B007F7ACF /* Info.plist */,
+			);
+			path = DittoAppTests;
+			sourceTree = "<group>";
+		};
+		B16F3FD3261D36AA007F7ACF /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3F73261D3589007F7ACF /* AppDelegate.swift */,
+				B16F3F7E261D358B007F7ACF /* LaunchScreen.storyboard */,
+				B16F3F81261D358B007F7ACF /* Info.plist */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		B16F3FD7261D36C0007F7ACF /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3F77261D3589007F7ACF /* DKThemeStyledViewController.swift */,
+				56542CAC26419F5200589867 /* DKThemeStyledTogglesViewController.swift */,
+				B1514920263A46B100B20FAC /* DKThemeStyledFormViewController.swift */,
+				B16F3F79261D3589007F7ACF /* Main.storyboard */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		B16F3FDF261D3709007F7ACF /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FE0261D3709007F7ACF /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		CE0B7C87F2129AF7F97CAED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234B19912A217B0A0016B88B /* DLRadioButton.framework */,
+				231ECB6F266FD7F3007E3911 /* DittoKit.framework */,
+				23D0E5BC266FD75F00ED0960 /* DittoKit.framework */,
+				23D0E5B5266FD65C00ED0960 /* DittoKit.framework */,
+				B1C69637261E444400D57E48 /* DittoKit.framework */,
+				B16F409C261D4265007F7ACF /* Ditto_iOS.framework */,
+				146CB207080510F2306956C0 /* Pods_DittoApp.framework */,
+				3158961CFECF6CCA57F7510C /* Pods_DittoAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B16F3F6F261D3589007F7ACF /* DittoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F3F9A261D358B007F7ACF /* Build configuration list for PBXNativeTarget "DittoApp" */;
+			buildPhases = (
+				10A4CABDFE39930428306C8B /* [CP] Check Pods Manifest.lock */,
+				B16F3F6C261D3589007F7ACF /* Sources */,
+				B16F3F6D261D3589007F7ACF /* Frameworks */,
+				B16F3F6E261D3589007F7ACF /* Resources */,
+				231ECB72266FD7F3007E3911 /* Embed Frameworks */,
+				B63317271EA89C99B667F7FB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DittoApp;
+			productName = DittoApp;
+			productReference = B16F3F70261D3589007F7ACF /* DittoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B16F3F85261D358B007F7ACF /* DittoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F3F9D261D358B007F7ACF /* Build configuration list for PBXNativeTarget "DittoAppTests" */;
+			buildPhases = (
+				06EEE3AB4372DC2D91B92185 /* [CP] Check Pods Manifest.lock */,
+				B16F3F82261D358B007F7ACF /* Sources */,
+				B16F3F83261D358B007F7ACF /* Frameworks */,
+				B16F3F84261D358B007F7ACF /* Resources */,
+				68168524CCE0F2BCD1394B5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16F3F88261D358B007F7ACF /* PBXTargetDependency */,
+			);
+			name = DittoAppTests;
+			productName = DittoAppTests;
+			productReference = B16F3F86261D358B007F7ACF /* DittoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16F3F68261D3589007F7ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B16F3F6F261D3589007F7ACF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					B16F3F85261D358B007F7ACF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = B16F3F6F261D3589007F7ACF;
+					};
+				};
+			};
+			buildConfigurationList = B16F3F6B261D3589007F7ACF /* Build configuration list for PBXProject "DittoApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B16F3F67261D3589007F7ACF;
+			productRefGroup = B16F3F71261D3589007F7ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16F3F6F261D3589007F7ACF /* DittoApp */,
+				B16F3F85261D358B007F7ACF /* DittoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16F3F6E261D3589007F7ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F3F80261D358B007F7ACF /* LaunchScreen.storyboard in Resources */,
+				B16F3FE1261D3709007F7ACF /* Assets.xcassets in Resources */,
+				B16F3F7B261D3589007F7ACF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3F84261D358B007F7ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		06EEE3AB4372DC2D91B92185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DittoAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10A4CABDFE39930428306C8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DittoApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68168524CCE0F2BCD1394B5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoAppTests/Pods-DittoAppTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoAppTests/Pods-DittoAppTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DittoAppTests/Pods-DittoAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63317271EA89C99B667F7FB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoApp/Pods-DittoApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoApp/Pods-DittoApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DittoApp/Pods-DittoApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16F3F6C261D3589007F7ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56542CAD26419F5200589867 /* DKThemeStyledTogglesViewController.swift in Sources */,
+				B16F3F78261D3589007F7ACF /* DKThemeStyledViewController.swift in Sources */,
+				B1514921263A46B100B20FAC /* DKThemeStyledFormViewController.swift in Sources */,
+				B16F3F74261D3589007F7ACF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3F82261D358B007F7ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16F3F88261D358B007F7ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16F3F6F261D3589007F7ACF /* DittoApp */;
+			targetProxy = B16F3F87261D358B007F7ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B16F3F79261D3589007F7ACF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16F3F7A261D3589007F7ACF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B16F3F7E261D358B007F7ACF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B16F3F7F261D358B007F7ACF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B16F3F98261D358B007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B16F3F99261D358B007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B16F3F9B261D358B007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7EE921AA504F82E4DBF40ED /* Pods-DittoApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				INFOPLIST_FILE = "$(SRCROOT)/DittoApp/Bundle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AG.DittoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16F3F9C261D358B007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990154490055B153F896C215 /* Pods-DittoApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				INFOPLIST_FILE = "$(SRCROOT)/DittoApp/Bundle/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = AG.DittoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B16F3F9E261D358B007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56442A3D9FB7EE4FC7983E4 /* Pods-DittoAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8T3W9YR268;
+				INFOPLIST_FILE = DittoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.optum.DittoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp.app/DittoApp";
+			};
+			name = Debug;
+		};
+		B16F3F9F261D358B007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6015ACDC5686B246111D81CC /* Pods-DittoAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8T3W9YR268;
+				INFOPLIST_FILE = DittoAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.optum.DittoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DittoApp.app/DittoApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16F3F6B261D3589007F7ACF /* Build configuration list for PBXProject "DittoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3F98261D358B007F7ACF /* Debug */,
+				B16F3F99261D358B007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F3F9A261D358B007F7ACF /* Build configuration list for PBXNativeTarget "DittoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3F9B261D358B007F7ACF /* Debug */,
+				B16F3F9C261D358B007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F3F9D261D358B007F7ACF /* Build configuration list for PBXNativeTarget "DittoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3F9E261D358B007F7ACF /* Debug */,
+				B16F3F9F261D358B007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B16F3F68261D3589007F7ACF /* Project object */;
+}

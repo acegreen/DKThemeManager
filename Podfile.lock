@@ -1,0 +1,16 @@
+PODS:
+  - DLRadioButton (1.4.12)
+
+DEPENDENCIES:
+  - DLRadioButton (= 1.4.12)
+
+SPEC REPOS:
+  trunk:
+    - DLRadioButton
+
+SPEC CHECKSUMS:
+  DLRadioButton: d7c4e225ed0e8013cef7be61455230c7557ad7c1
+
+PODFILE CHECKSUM: 348616f2ba4bfd1b23af8906e2983f79f2c11fd6
+
+COCOAPODS: 1.11.3

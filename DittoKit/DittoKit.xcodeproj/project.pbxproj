@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		234B19C22A217D3C0016B88B /* DKFormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19962A217D3C0016B88B /* DKFormElement.swift */; };
+		234B19C32A217D3C0016B88B /* DKFormValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19972A217D3C0016B88B /* DKFormValidationError.swift */; };
+		234B19C42A217D3C0016B88B /* DKFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19982A217D3C0016B88B /* DKFormField.swift */; };
+		234B19C52A217D3C0016B88B /* DKFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19992A217D3C0016B88B /* DKFormViewController.swift */; };
+		234B19C62A217D3C0016B88B /* DKForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B199A2A217D3C0016B88B /* DKForm.swift */; };
+		234B19C72A217D3C0016B88B /* DKForm+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B199C2A217D3C0016B88B /* DKForm+Extensions.swift */; };
+		234B19C82A217D3C0016B88B /* CGRect+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B199D2A217D3C0016B88B /* CGRect+Extensions.swift */; };
+		234B19C92A217D3C0016B88B /* DKFormFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B199E2A217D3C0016B88B /* DKFormFields.swift */; };
+		234B19CA2A217D3C0016B88B /* DKFormElementValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B199F2A217D3C0016B88B /* DKFormElementValidationResult.swift */; };
+		234B19CB2A217D3C0016B88B /* DKFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A02A217D3C0016B88B /* DKFormData.swift */; };
+		234B19CC2A217D3C0016B88B /* DKFormNextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A12A217D3C0016B88B /* DKFormNextViewController.swift */; };
+		234B19CD2A217D3C0016B88B /* DKFormNextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A22A217D3C0016B88B /* DKFormNextButton.swift */; };
+		234B19CE2A217D3C0016B88B /* DKFormValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A32A217D3C0016B88B /* DKFormValidationResult.swift */; };
+		234B19CF2A217D3C0016B88B /* DKThemeStyledViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A52A217D3C0016B88B /* DKThemeStyledViewController.swift */; };
+		234B19D02A217D3C0016B88B /* DKDefaultTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A62A217D3C0016B88B /* DKDefaultTheme.swift */; };
+		234B19D12A217D3C0016B88B /* DKCustomTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A72A217D3C0016B88B /* DKCustomTheme.swift */; };
+		234B19D22A217D3C0016B88B /* DKThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A82A217D3C0016B88B /* DKThemeManager.swift */; };
+		234B19D32A217D3C0016B88B /* DKThemeStyledTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19A92A217D3C0016B88B /* DKThemeStyledTabBarController.swift */; };
+		234B19D42A217D3C0016B88B /* DKThemeStyledLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AA2A217D3C0016B88B /* DKThemeStyledLabel.swift */; };
+		234B19D52A217D3C0016B88B /* DKThemeStyledNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AB2A217D3C0016B88B /* DKThemeStyledNavigationController.swift */; };
+		234B19D62A217D3C0016B88B /* DKThemeStyledToggleButtonStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AC2A217D3C0016B88B /* DKThemeStyledToggleButtonStack.swift */; };
+		234B19D72A217D3C0016B88B /* DKThemeStyledToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AD2A217D3C0016B88B /* DKThemeStyledToggleButton.swift */; };
+		234B19D82A217D3C0016B88B /* DKThemeStyledRDSImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AE2A217D3C0016B88B /* DKThemeStyledRDSImageView.swift */; };
+		234B19D92A217D3C0016B88B /* DKThemeStyledTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19AF2A217D3C0016B88B /* DKThemeStyledTabBar.swift */; };
+		234B19DA2A217D3C0016B88B /* DKFormViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B12A217D3C0016B88B /* DKFormViewController+Extensions.swift */; };
+		234B19DB2A217D3C0016B88B /* UIViewController+Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B22A217D3C0016B88B /* UIViewController+Navigation.swift */; };
+		234B19DC2A217D3C0016B88B /* DKThemeStyledTextFormErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B32A217D3C0016B88B /* DKThemeStyledTextFormErrorView.swift */; };
+		234B19DD2A217D3C0016B88B /* DKThemeStyledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B42A217D3C0016B88B /* DKThemeStyledButton.swift */; };
+		234B19DE2A217D3C0016B88B /* DKTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B52A217D3C0016B88B /* DKTheme.swift */; };
+		234B19DF2A217D3C0016B88B /* DKThemeStyledTextFormErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234B19B62A217D3C0016B88B /* DKThemeStyledTextFormErrorView.xib */; };
+		234B19E02A217D3C0016B88B /* DKThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B72A217D3C0016B88B /* DKThemeStyle.swift */; };
+		234B19E12A217D3C0016B88B /* DKThemeStyledRDSButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B82A217D3C0016B88B /* DKThemeStyledRDSButton.swift */; };
+		234B19E22A217D3C0016B88B /* DKThemeStyledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19B92A217D3C0016B88B /* DKThemeStyledTextField.swift */; };
+		234B19E32A217D3C0016B88B /* DKThemeStyledSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19BA2A217D3C0016B88B /* DKThemeStyledSegmentedControl.swift */; };
+		234B19E42A217D3C0016B88B /* DKThemeStyledNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19BB2A217D3C0016B88B /* DKThemeStyledNavigationBar.swift */; };
+		234B19E52A217D3C0016B88B /* DKThemeStyledSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19BC2A217D3C0016B88B /* DKThemeStyledSwitch.swift */; };
+		234B19E62A217D3C0016B88B /* DKThemeStyledTextFormField.xib in Resources */ = {isa = PBXBuildFile; fileRef = 234B19BD2A217D3C0016B88B /* DKThemeStyledTextFormField.xib */; };
+		234B19E72A217D3C0016B88B /* DKThemeStyledTextFormField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19BE2A217D3C0016B88B /* DKThemeStyledTextFormField.swift */; };
+		234B19E82A217D3C0016B88B /* DKThemeStyledTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B19BF2A217D3C0016B88B /* DKThemeStyledTextView.swift */; };
+		234B19F12A217FE90016B88B /* DLRadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 234B19F02A217FE90016B88B /* DLRadioButton.framework */; };
+		56B435062627542600F181BF /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B434F32627542600F181BF /* UIImage+Extensions.swift */; };
+		B133694626289BFF0074009A /* DKRDSIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B133694526289BFF0074009A /* DKRDSIcons.xcassets */; };
+		B162FF2E2627A84900F35C91 /* DKColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B162FF2D2627A84900F35C91 /* DKColors.xcassets */; };
+		B16F3FBC261D3671007F7ACF /* DittoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B16F3FB2261D3670007F7ACF /* DittoKit.framework */; };
+		B16F4024261D39C5007F7ACF /* UIColor+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FF3261D39C5007F7ACF /* UIColor+Initializers.swift */; };
+		B16F4025261D39C5007F7ACF /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FF4261D39C5007F7ACF /* UIColor+Utilities.swift */; };
+		B16F4026261D39C5007F7ACF /* UIView+Initializers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FF6261D39C5007F7ACF /* UIView+Initializers.swift */; };
+		B16F4027261D39C5007F7ACF /* UIView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FF7261D39C5007F7ACF /* UIView+Utilities.swift */; };
+		B16F4028261D39C5007F7ACF /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FF9261D39C5007F7ACF /* Collection+Extensions.swift */; };
+		B16F402A261D39C5007F7ACF /* DKThemeStyled+Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F3FFD261D39C5007F7ACF /* DKThemeStyled+Analytics.swift */; };
+		B16F402C261D39C5007F7ACF /* DittoKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F4001261D39C5007F7ACF /* DittoKit.swift */; };
+		B16F402D261D39C5007F7ACF /* DittoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B16F4002261D39C5007F7ACF /* DittoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B16F4037261D39C5007F7ACF /* DKRDSIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F400D261D39C5007F7ACF /* DKRDSIcons.swift */; };
+		B16F4048261D39C5007F7ACF /* DKConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F401F261D39C5007F7ACF /* DKConstants.swift */; };
+		B16F408B261D3E04007F7ACF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F408A261D3E04007F7ACF /* UIView+Extensions.swift */; };
+		B16F4090261D3E72007F7ACF /* DKBundleHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F408F261D3E72007F7ACF /* DKBundleHelper.swift */; };
+		B16F40A3261D44B0007F7ACF /* DKDismissable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F40A2261D44B0007F7ACF /* DKDismissable.swift */; };
+		B16F40A7261D4531007F7ACF /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F40A6261D4531007F7ACF /* UITextField+Extensions.swift */; };
+		B16F40B2261D45F2007F7ACF /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B16F40B1261D45F2007F7ACF /* String+Extensions.swift */; };
+		B1C6962A261E2A9100D57E48 /* DKThemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C69629261E2A9100D57E48 /* DKThemeTests.swift */; };
+		B3002E5A07C56583D3F20AEC /* Pods_DittoKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 210EA3E5C9B9EF702BDE3B9E /* Pods_DittoKitTests.framework */; };
+		B4EA11BC749A121B9BB5C961 /* Pods_DittoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9847F0AC3D3C425CB20E29CE /* Pods_DittoKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B16F3FBD261D3671007F7ACF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B16F3FA9261D3670007F7ACF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B16F3FB1261D3670007F7ACF;
+			remoteInfo = "Ditto-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		234B19F32A217FE90016B88B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		210EA3E5C9B9EF702BDE3B9E /* Pods_DittoKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DittoKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234B19962A217D3C0016B88B /* DKFormElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormElement.swift; sourceTree = "<group>"; };
+		234B19972A217D3C0016B88B /* DKFormValidationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormValidationError.swift; sourceTree = "<group>"; };
+		234B19982A217D3C0016B88B /* DKFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormField.swift; sourceTree = "<group>"; };
+		234B19992A217D3C0016B88B /* DKFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormViewController.swift; sourceTree = "<group>"; };
+		234B199A2A217D3C0016B88B /* DKForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKForm.swift; sourceTree = "<group>"; };
+		234B199C2A217D3C0016B88B /* DKForm+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKForm+Extensions.swift"; sourceTree = "<group>"; };
+		234B199D2A217D3C0016B88B /* CGRect+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGRect+Extensions.swift"; sourceTree = "<group>"; };
+		234B199E2A217D3C0016B88B /* DKFormFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormFields.swift; sourceTree = "<group>"; };
+		234B199F2A217D3C0016B88B /* DKFormElementValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormElementValidationResult.swift; sourceTree = "<group>"; };
+		234B19A02A217D3C0016B88B /* DKFormData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormData.swift; sourceTree = "<group>"; };
+		234B19A12A217D3C0016B88B /* DKFormNextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormNextViewController.swift; sourceTree = "<group>"; };
+		234B19A22A217D3C0016B88B /* DKFormNextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormNextButton.swift; sourceTree = "<group>"; };
+		234B19A32A217D3C0016B88B /* DKFormValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKFormValidationResult.swift; sourceTree = "<group>"; };
+		234B19A52A217D3C0016B88B /* DKThemeStyledViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledViewController.swift; sourceTree = "<group>"; };
+		234B19A62A217D3C0016B88B /* DKDefaultTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDefaultTheme.swift; sourceTree = "<group>"; };
+		234B19A72A217D3C0016B88B /* DKCustomTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKCustomTheme.swift; sourceTree = "<group>"; };
+		234B19A82A217D3C0016B88B /* DKThemeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeManager.swift; sourceTree = "<group>"; };
+		234B19A92A217D3C0016B88B /* DKThemeStyledTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTabBarController.swift; sourceTree = "<group>"; };
+		234B19AA2A217D3C0016B88B /* DKThemeStyledLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledLabel.swift; sourceTree = "<group>"; };
+		234B19AB2A217D3C0016B88B /* DKThemeStyledNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledNavigationController.swift; sourceTree = "<group>"; };
+		234B19AC2A217D3C0016B88B /* DKThemeStyledToggleButtonStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledToggleButtonStack.swift; sourceTree = "<group>"; };
+		234B19AD2A217D3C0016B88B /* DKThemeStyledToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledToggleButton.swift; sourceTree = "<group>"; };
+		234B19AE2A217D3C0016B88B /* DKThemeStyledRDSImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledRDSImageView.swift; sourceTree = "<group>"; };
+		234B19AF2A217D3C0016B88B /* DKThemeStyledTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTabBar.swift; sourceTree = "<group>"; };
+		234B19B12A217D3C0016B88B /* DKFormViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKFormViewController+Extensions.swift"; sourceTree = "<group>"; };
+		234B19B22A217D3C0016B88B /* UIViewController+Navigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Navigation.swift"; sourceTree = "<group>"; };
+		234B19B32A217D3C0016B88B /* DKThemeStyledTextFormErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTextFormErrorView.swift; sourceTree = "<group>"; };
+		234B19B42A217D3C0016B88B /* DKThemeStyledButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledButton.swift; sourceTree = "<group>"; };
+		234B19B52A217D3C0016B88B /* DKTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKTheme.swift; sourceTree = "<group>"; };
+		234B19B62A217D3C0016B88B /* DKThemeStyledTextFormErrorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKThemeStyledTextFormErrorView.xib; sourceTree = "<group>"; };
+		234B19B72A217D3C0016B88B /* DKThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyle.swift; sourceTree = "<group>"; };
+		234B19B82A217D3C0016B88B /* DKThemeStyledRDSButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledRDSButton.swift; sourceTree = "<group>"; };
+		234B19B92A217D3C0016B88B /* DKThemeStyledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTextField.swift; sourceTree = "<group>"; };
+		234B19BA2A217D3C0016B88B /* DKThemeStyledSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledSegmentedControl.swift; sourceTree = "<group>"; };
+		234B19BB2A217D3C0016B88B /* DKThemeStyledNavigationBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledNavigationBar.swift; sourceTree = "<group>"; };
+		234B19BC2A217D3C0016B88B /* DKThemeStyledSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledSwitch.swift; sourceTree = "<group>"; };
+		234B19BD2A217D3C0016B88B /* DKThemeStyledTextFormField.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DKThemeStyledTextFormField.xib; sourceTree = "<group>"; };
+		234B19BE2A217D3C0016B88B /* DKThemeStyledTextFormField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTextFormField.swift; sourceTree = "<group>"; };
+		234B19BF2A217D3C0016B88B /* DKThemeStyledTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKThemeStyledTextView.swift; sourceTree = "<group>"; };
+		234B19F02A217FE90016B88B /* DLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563A140126248F2600CFD6B5 /* DittoKit.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = DittoKit.xctestplan; sourceTree = "<group>"; };
+		56B434F32627542600F181BF /* UIImage+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		5C8FE12062E2C0585EA7BFBD /* Pods-DittoKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoKitTests.release.xcconfig"; path = "Target Support Files/Pods-DittoKitTests/Pods-DittoKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		8B977D03AE1950E86833AABE /* Pods-DittoKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoKitTests.debug.xcconfig"; path = "Target Support Files/Pods-DittoKitTests/Pods-DittoKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C623F9F2C26839943A907CA /* Pods-DittoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoKit.release.xcconfig"; path = "Target Support Files/Pods-DittoKit/Pods-DittoKit.release.xcconfig"; sourceTree = "<group>"; };
+		9847F0AC3D3C425CB20E29CE /* Pods_DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B133694526289BFF0074009A /* DKRDSIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DKRDSIcons.xcassets; sourceTree = "<group>"; };
+		B162FF2D2627A84900F35C91 /* DKColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = DKColors.xcassets; sourceTree = "<group>"; };
+		B16F3FB2261D3670007F7ACF /* DittoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DittoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F3FBB261D3671007F7ACF /* DittoKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DittoKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B16F3FC2261D3671007F7ACF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F3FF3261D39C5007F7ACF /* UIColor+Initializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Initializers.swift"; sourceTree = "<group>"; };
+		B16F3FF4261D39C5007F7ACF /* UIColor+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		B16F3FF6261D39C5007F7ACF /* UIView+Initializers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Initializers.swift"; sourceTree = "<group>"; };
+		B16F3FF7261D39C5007F7ACF /* UIView+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utilities.swift"; sourceTree = "<group>"; };
+		B16F3FF9261D39C5007F7ACF /* Collection+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
+		B16F3FFD261D39C5007F7ACF /* DKThemeStyled+Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DKThemeStyled+Analytics.swift"; sourceTree = "<group>"; };
+		B16F4001261D39C5007F7ACF /* DittoKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DittoKit.swift; sourceTree = "<group>"; };
+		B16F4002261D39C5007F7ACF /* DittoKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DittoKit.h; sourceTree = "<group>"; };
+		B16F4003261D39C5007F7ACF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B16F400D261D39C5007F7ACF /* DKRDSIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKRDSIcons.swift; sourceTree = "<group>"; };
+		B16F401F261D39C5007F7ACF /* DKConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKConstants.swift; sourceTree = "<group>"; };
+		B16F408A261D3E04007F7ACF /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		B16F408F261D3E72007F7ACF /* DKBundleHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKBundleHelper.swift; sourceTree = "<group>"; };
+		B16F40A2261D44B0007F7ACF /* DKDismissable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DKDismissable.swift; sourceTree = "<group>"; };
+		B16F40A6261D4531007F7ACF /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		B16F40B1261D45F2007F7ACF /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		B1C69629261E2A9100D57E48 /* DKThemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKThemeTests.swift; sourceTree = "<group>"; };
+		C4AFC893AA11A0813A34304C /* Pods-DittoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DittoKit.debug.xcconfig"; path = "Target Support Files/Pods-DittoKit/Pods-DittoKit.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B16F3FAF261D3670007F7ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B19F12A217FE90016B88B /* DLRadioButton.framework in Frameworks */,
+				B4EA11BC749A121B9BB5C961 /* Pods_DittoKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3FB8261D3671007F7ACF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F3FBC261D3671007F7ACF /* DittoKit.framework in Frameworks */,
+				B3002E5A07C56583D3F20AEC /* Pods_DittoKitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		234B19942A217D3C0016B88B /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				234B19952A217D3C0016B88B /* Forms */,
+				234B19A42A217D3C0016B88B /* ThemeManager */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		234B19952A217D3C0016B88B /* Forms */ = {
+			isa = PBXGroup;
+			children = (
+				234B19962A217D3C0016B88B /* DKFormElement.swift */,
+				234B19972A217D3C0016B88B /* DKFormValidationError.swift */,
+				234B19982A217D3C0016B88B /* DKFormField.swift */,
+				234B19992A217D3C0016B88B /* DKFormViewController.swift */,
+				234B199A2A217D3C0016B88B /* DKForm.swift */,
+				234B199B2A217D3C0016B88B /* Extensions */,
+				234B199E2A217D3C0016B88B /* DKFormFields.swift */,
+				234B199F2A217D3C0016B88B /* DKFormElementValidationResult.swift */,
+				234B19A02A217D3C0016B88B /* DKFormData.swift */,
+				234B19A12A217D3C0016B88B /* DKFormNextViewController.swift */,
+				234B19A22A217D3C0016B88B /* DKFormNextButton.swift */,
+				234B19A32A217D3C0016B88B /* DKFormValidationResult.swift */,
+			);
+			path = Forms;
+			sourceTree = "<group>";
+		};
+		234B199B2A217D3C0016B88B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				234B199C2A217D3C0016B88B /* DKForm+Extensions.swift */,
+				234B199D2A217D3C0016B88B /* CGRect+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		234B19A42A217D3C0016B88B /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				234B19A82A217D3C0016B88B /* DKThemeManager.swift */,
+				234B19B52A217D3C0016B88B /* DKTheme.swift */,
+				234B19A62A217D3C0016B88B /* DKDefaultTheme.swift */,
+				234B19A72A217D3C0016B88B /* DKCustomTheme.swift */,
+				234B19B72A217D3C0016B88B /* DKThemeStyle.swift */,
+				234B19F42A21818C0016B88B /* ViewControllers */,
+				234B19F52A2181B30016B88B /* Views */,
+				234B19B02A217D3C0016B88B /* Extensions */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		234B19B02A217D3C0016B88B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				234B19B12A217D3C0016B88B /* DKFormViewController+Extensions.swift */,
+				234B19B22A217D3C0016B88B /* UIViewController+Navigation.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		234B19F42A21818C0016B88B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				234B19A52A217D3C0016B88B /* DKThemeStyledViewController.swift */,
+				234B19A92A217D3C0016B88B /* DKThemeStyledTabBarController.swift */,
+				234B19AB2A217D3C0016B88B /* DKThemeStyledNavigationController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		234B19F52A2181B30016B88B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				234B19BB2A217D3C0016B88B /* DKThemeStyledNavigationBar.swift */,
+				234B19AF2A217D3C0016B88B /* DKThemeStyledTabBar.swift */,
+				234B19AA2A217D3C0016B88B /* DKThemeStyledLabel.swift */,
+				234B19B42A217D3C0016B88B /* DKThemeStyledButton.swift */,
+				234B19B92A217D3C0016B88B /* DKThemeStyledTextField.swift */,
+				234B19BD2A217D3C0016B88B /* DKThemeStyledTextFormField.xib */,
+				234B19BE2A217D3C0016B88B /* DKThemeStyledTextFormField.swift */,
+				234B19B32A217D3C0016B88B /* DKThemeStyledTextFormErrorView.swift */,
+				234B19B62A217D3C0016B88B /* DKThemeStyledTextFormErrorView.xib */,
+				234B19BF2A217D3C0016B88B /* DKThemeStyledTextView.swift */,
+				234B19BA2A217D3C0016B88B /* DKThemeStyledSegmentedControl.swift */,
+				234B19B82A217D3C0016B88B /* DKThemeStyledRDSButton.swift */,
+				234B19BC2A217D3C0016B88B /* DKThemeStyledSwitch.swift */,
+				234B19AD2A217D3C0016B88B /* DKThemeStyledToggleButton.swift */,
+				234B19AC2A217D3C0016B88B /* DKThemeStyledToggleButtonStack.swift */,
+				234B19AE2A217D3C0016B88B /* DKThemeStyledRDSImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		56DBB6CF26287D7900BB5F8E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B16F408F261D3E72007F7ACF /* DKBundleHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7BE33645B651BC4F4C8FA100 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4AFC893AA11A0813A34304C /* Pods-DittoKit.debug.xcconfig */,
+				8C623F9F2C26839943A907CA /* Pods-DittoKit.release.xcconfig */,
+				8B977D03AE1950E86833AABE /* Pods-DittoKitTests.debug.xcconfig */,
+				5C8FE12062E2C0585EA7BFBD /* Pods-DittoKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		8F84966FF9E4A4F3013364E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				234B19F02A217FE90016B88B /* DLRadioButton.framework */,
+				9847F0AC3D3C425CB20E29CE /* Pods_DittoKit.framework */,
+				210EA3E5C9B9EF702BDE3B9E /* Pods_DittoKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B162FF072627A05A00F35C91 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B16F400D261D39C5007F7ACF /* DKRDSIcons.swift */,
+				B162FF2D2627A84900F35C91 /* DKColors.xcassets */,
+				B133694526289BFF0074009A /* DKRDSIcons.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B162FF1E2627A51A00F35C91 /* UIImage */ = {
+			isa = PBXGroup;
+			children = (
+				56B434F32627542600F181BF /* UIImage+Extensions.swift */,
+			);
+			path = UIImage;
+			sourceTree = "<group>";
+		};
+		B16F3FA8261D3670007F7ACF = {
+			isa = PBXGroup;
+			children = (
+				B16F3FB4261D3670007F7ACF /* DittoKit */,
+				B16F3FBF261D3671007F7ACF /* DittoKitTests */,
+				B16F3FB3261D3670007F7ACF /* Products */,
+				7BE33645B651BC4F4C8FA100 /* Pods */,
+				8F84966FF9E4A4F3013364E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B16F3FB3261D3670007F7ACF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FB2261D3670007F7ACF /* DittoKit.framework */,
+				B16F3FBB261D3671007F7ACF /* DittoKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B16F3FB4261D3670007F7ACF /* DittoKit */ = {
+			isa = PBXGroup;
+			children = (
+				234B19942A217D3C0016B88B /* Features */,
+				B16F3FFC261D39C5007F7ACF /* Analytics */,
+				B162FF072627A05A00F35C91 /* Assets */,
+				B16F4000261D39C5007F7ACF /* Bundle */,
+				B16F401E261D39C5007F7ACF /* Common */,
+				B16F3FF0261D39C5007F7ACF /* Extensions */,
+				56DBB6CF26287D7900BB5F8E /* Helpers */,
+				B16F4095261D411C007F7ACF /* Protocols */,
+			);
+			path = DittoKit;
+			sourceTree = "<group>";
+		};
+		B16F3FBF261D3671007F7ACF /* DittoKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1C69629261E2A9100D57E48 /* DKThemeTests.swift */,
+				563A140126248F2600CFD6B5 /* DittoKit.xctestplan */,
+				B16F3FC2261D3671007F7ACF /* Info.plist */,
+			);
+			path = DittoKitTests;
+			sourceTree = "<group>";
+		};
+		B16F3FF0261D39C5007F7ACF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FF1261D39C5007F7ACF /* UIKit */,
+				B16F3FF8261D39C5007F7ACF /* Foundation */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B16F3FF1261D39C5007F7ACF /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FF2261D39C5007F7ACF /* UIColor */,
+				B16F3FF5261D39C5007F7ACF /* UIView */,
+				B162FF1E2627A51A00F35C91 /* UIImage */,
+				B16F40AA261D453E007F7ACF /* UITextField */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		B16F3FF2261D39C5007F7ACF /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FF3261D39C5007F7ACF /* UIColor+Initializers.swift */,
+				B16F3FF4261D39C5007F7ACF /* UIColor+Utilities.swift */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		B16F3FF5261D39C5007F7ACF /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FF6261D39C5007F7ACF /* UIView+Initializers.swift */,
+				B16F3FF7261D39C5007F7ACF /* UIView+Utilities.swift */,
+				B16F408A261D3E04007F7ACF /* UIView+Extensions.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		B16F3FF8261D39C5007F7ACF /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FF9261D39C5007F7ACF /* Collection+Extensions.swift */,
+				B16F40B1261D45F2007F7ACF /* String+Extensions.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B16F3FFC261D39C5007F7ACF /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				B16F3FFD261D39C5007F7ACF /* DKThemeStyled+Analytics.swift */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		B16F4000261D39C5007F7ACF /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				B16F4001261D39C5007F7ACF /* DittoKit.swift */,
+				B16F4002261D39C5007F7ACF /* DittoKit.h */,
+				B16F4003261D39C5007F7ACF /* Info.plist */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		B16F401E261D39C5007F7ACF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B16F401F261D39C5007F7ACF /* DKConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B16F4095261D411C007F7ACF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B16F40A2261D44B0007F7ACF /* DKDismissable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B16F40AA261D453E007F7ACF /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				B16F40A6261D4531007F7ACF /* UITextField+Extensions.swift */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B16F3FAD261D3670007F7ACF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B16F402D261D39C5007F7ACF /* DittoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B16F3FB1261D3670007F7ACF /* DittoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F3FC6261D3671007F7ACF /* Build configuration list for PBXNativeTarget "DittoKit" */;
+			buildPhases = (
+				0238CAA6B01117472643B3EB /* [CP] Check Pods Manifest.lock */,
+				B16F3FAD261D3670007F7ACF /* Headers */,
+				B16F3FAE261D3670007F7ACF /* Sources */,
+				B16F3FAF261D3670007F7ACF /* Frameworks */,
+				B16F3FB0261D3670007F7ACF /* Resources */,
+				564AB446262DC34B001D52F2 /* Swiftlint */,
+				234B19F32A217FE90016B88B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DittoKit;
+			productName = "Ditto-iOS";
+			productReference = B16F3FB2261D3670007F7ACF /* DittoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B16F3FBA261D3671007F7ACF /* DittoKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B16F3FC9261D3671007F7ACF /* Build configuration list for PBXNativeTarget "DittoKitTests" */;
+			buildPhases = (
+				070DADB2BFB34BB2387C7B4F /* [CP] Check Pods Manifest.lock */,
+				B16F3FB7261D3671007F7ACF /* Sources */,
+				B16F3FB8261D3671007F7ACF /* Frameworks */,
+				B16F3FB9261D3671007F7ACF /* Resources */,
+				DBFD38E5DC697699049E7E8D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B16F3FBE261D3671007F7ACF /* PBXTargetDependency */,
+			);
+			name = DittoKitTests;
+			productName = "Ditto-iOSTests";
+			productReference = B16F3FBB261D3671007F7ACF /* DittoKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B16F3FA9261D3670007F7ACF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B16F3FB1261D3670007F7ACF = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					B16F3FBA261D3671007F7ACF = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = B16F3FAC261D3670007F7ACF /* Build configuration list for PBXProject "DittoKit" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B16F3FA8261D3670007F7ACF;
+			productRefGroup = B16F3FB3261D3670007F7ACF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B16F3FB1261D3670007F7ACF /* DittoKit */,
+				B16F3FBA261D3671007F7ACF /* DittoKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B16F3FB0261D3670007F7ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B19DF2A217D3C0016B88B /* DKThemeStyledTextFormErrorView.xib in Resources */,
+				B162FF2E2627A84900F35C91 /* DKColors.xcassets in Resources */,
+				B133694626289BFF0074009A /* DKRDSIcons.xcassets in Resources */,
+				234B19E62A217D3C0016B88B /* DKThemeStyledTextFormField.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3FB9261D3671007F7ACF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0238CAA6B01117472643B3EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DittoKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		070DADB2BFB34BB2387C7B4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DittoKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		564AB446262DC34B001D52F2 /* Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Swiftlint;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\n    cd ..; swiftlint autocorrect; swiftlint; \nfi\n";
+		};
+		DBFD38E5DC697699049E7E8D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoKitTests/Pods-DittoKitTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DittoKitTests/Pods-DittoKitTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DittoKitTests/Pods-DittoKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B16F3FAE261D3670007F7ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234B19CD2A217D3C0016B88B /* DKFormNextButton.swift in Sources */,
+				B16F402A261D39C5007F7ACF /* DKThemeStyled+Analytics.swift in Sources */,
+				B16F4025261D39C5007F7ACF /* UIColor+Utilities.swift in Sources */,
+				234B19CB2A217D3C0016B88B /* DKFormData.swift in Sources */,
+				B16F402C261D39C5007F7ACF /* DittoKit.swift in Sources */,
+				B16F4048261D39C5007F7ACF /* DKConstants.swift in Sources */,
+				234B19DC2A217D3C0016B88B /* DKThemeStyledTextFormErrorView.swift in Sources */,
+				234B19C92A217D3C0016B88B /* DKFormFields.swift in Sources */,
+				234B19C72A217D3C0016B88B /* DKForm+Extensions.swift in Sources */,
+				234B19D02A217D3C0016B88B /* DKDefaultTheme.swift in Sources */,
+				234B19C82A217D3C0016B88B /* CGRect+Extensions.swift in Sources */,
+				234B19E52A217D3C0016B88B /* DKThemeStyledSwitch.swift in Sources */,
+				B16F40A3261D44B0007F7ACF /* DKDismissable.swift in Sources */,
+				234B19D32A217D3C0016B88B /* DKThemeStyledTabBarController.swift in Sources */,
+				B16F4027261D39C5007F7ACF /* UIView+Utilities.swift in Sources */,
+				234B19D22A217D3C0016B88B /* DKThemeManager.swift in Sources */,
+				234B19CC2A217D3C0016B88B /* DKFormNextViewController.swift in Sources */,
+				B16F4090261D3E72007F7ACF /* DKBundleHelper.swift in Sources */,
+				56B435062627542600F181BF /* UIImage+Extensions.swift in Sources */,
+				234B19E32A217D3C0016B88B /* DKThemeStyledSegmentedControl.swift in Sources */,
+				234B19DB2A217D3C0016B88B /* UIViewController+Navigation.swift in Sources */,
+				B16F408B261D3E04007F7ACF /* UIView+Extensions.swift in Sources */,
+				234B19D92A217D3C0016B88B /* DKThemeStyledTabBar.swift in Sources */,
+				234B19C42A217D3C0016B88B /* DKFormField.swift in Sources */,
+				234B19CE2A217D3C0016B88B /* DKFormValidationResult.swift in Sources */,
+				234B19DA2A217D3C0016B88B /* DKFormViewController+Extensions.swift in Sources */,
+				B16F4026261D39C5007F7ACF /* UIView+Initializers.swift in Sources */,
+				234B19E42A217D3C0016B88B /* DKThemeStyledNavigationBar.swift in Sources */,
+				234B19CF2A217D3C0016B88B /* DKThemeStyledViewController.swift in Sources */,
+				234B19C32A217D3C0016B88B /* DKFormValidationError.swift in Sources */,
+				234B19C52A217D3C0016B88B /* DKFormViewController.swift in Sources */,
+				234B19D42A217D3C0016B88B /* DKThemeStyledLabel.swift in Sources */,
+				B16F4024261D39C5007F7ACF /* UIColor+Initializers.swift in Sources */,
+				234B19E82A217D3C0016B88B /* DKThemeStyledTextView.swift in Sources */,
+				234B19DE2A217D3C0016B88B /* DKTheme.swift in Sources */,
+				234B19E12A217D3C0016B88B /* DKThemeStyledRDSButton.swift in Sources */,
+				234B19D62A217D3C0016B88B /* DKThemeStyledToggleButtonStack.swift in Sources */,
+				234B19D72A217D3C0016B88B /* DKThemeStyledToggleButton.swift in Sources */,
+				234B19E02A217D3C0016B88B /* DKThemeStyle.swift in Sources */,
+				234B19C22A217D3C0016B88B /* DKFormElement.swift in Sources */,
+				234B19D12A217D3C0016B88B /* DKCustomTheme.swift in Sources */,
+				B16F40B2261D45F2007F7ACF /* String+Extensions.swift in Sources */,
+				234B19D52A217D3C0016B88B /* DKThemeStyledNavigationController.swift in Sources */,
+				234B19D82A217D3C0016B88B /* DKThemeStyledRDSImageView.swift in Sources */,
+				B16F40A7261D4531007F7ACF /* UITextField+Extensions.swift in Sources */,
+				B16F4037261D39C5007F7ACF /* DKRDSIcons.swift in Sources */,
+				234B19DD2A217D3C0016B88B /* DKThemeStyledButton.swift in Sources */,
+				234B19CA2A217D3C0016B88B /* DKFormElementValidationResult.swift in Sources */,
+				234B19E72A217D3C0016B88B /* DKThemeStyledTextFormField.swift in Sources */,
+				234B19E22A217D3C0016B88B /* DKThemeStyledTextField.swift in Sources */,
+				234B19C62A217D3C0016B88B /* DKForm.swift in Sources */,
+				B16F4028261D39C5007F7ACF /* Collection+Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B16F3FB7261D3671007F7ACF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1C6962A261E2A9100D57E48 /* DKThemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B16F3FBE261D3671007F7ACF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B16F3FB1261D3670007F7ACF /* DittoKit */;
+			targetProxy = B16F3FBD261D3671007F7ACF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B16F3FC4261D3671007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B16F3FC5261D3671007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B16F3FC7261D3671007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4AFC893AA11A0813A34304C /* Pods-DittoKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DittoKit/Bundle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "AG.Ditto-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16F3FC8261D3671007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C623F9F2C26839943A907CA /* Pods-DittoKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/DittoKit/Bundle/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "AG.Ditto-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B16F3FCA261D3671007F7ACF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B977D03AE1950E86833AABE /* Pods-DittoKitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				INFOPLIST_FILE = DittoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optum.Ditto-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B16F3FCB261D3671007F7ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8FE12062E2C0585EA7BFBD /* Pods-DittoKitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8T3W9YR268;
+				INFOPLIST_FILE = DittoKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optum.Ditto-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B16F3FAC261D3670007F7ACF /* Build configuration list for PBXProject "DittoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3FC4261D3671007F7ACF /* Debug */,
+				B16F3FC5261D3671007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F3FC6261D3671007F7ACF /* Build configuration list for PBXNativeTarget "DittoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3FC7261D3671007F7ACF /* Debug */,
+				B16F3FC8261D3671007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B16F3FC9261D3671007F7ACF /* Build configuration list for PBXNativeTarget "DittoKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B16F3FCA261D3671007F7ACF /* Debug */,
+				B16F3FCB261D3671007F7ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B16F3FA9261D3670007F7ACF /* Project object */;
+}

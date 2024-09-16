@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DKThemeStyledTextFormErrorView" customModule="DittoKit" customModuleProvider="target">
+            <connections>
+                <outlet property="errorImageView" destination="JAN-rH-VOp" id="F6j-h7-O1S"/>
+                <outlet property="errorLabel" destination="04a-Q6-t9s" id="9m9-ve-zBR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Zff-wO-NaU">
+            <rect key="frame" x="0.0" y="0.0" width="458" height="128"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="kbR-nB-GZ5">
+                    <rect key="frame" x="0.0" y="0.0" width="458" height="128"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rds-alert" translatesAutoresizingMaskIntoConstraints="NO" id="JAN-rH-VOp" customClass="DKThemeStyledRDSImageView" customModule="DittoKit">
+                            <rect key="frame" x="0.0" y="56.5" width="17" height="15"/>
+                            <accessibility key="accessibilityConfiguration" identifier="redWarningImageViewIdentifier"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="17" id="5ZP-rx-60e"/>
+                                <constraint firstAttribute="height" constant="15" id="6fH-It-jHD"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="rdsAdapter" value="rds-alert"/>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ERROR TEXT" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="04a-Q6-t9s" userLabel="Post text Label" customClass="DKThemeStyledLabel" customModule="DittoKit">
+                            <rect key="frame" x="23" y="54" width="435" height="20.5"/>
+                            <accessibility key="accessibilityConfiguration" identifier="postTextLabelIdentifier">
+                                <bool key="isElement" value="NO"/>
+                            </accessibility>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="string" keyPath="themedStyleAdapter" value="smallDanger"/>
+                            </userDefinedRuntimeAttributes>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="aQG-3p-YPS"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="aQG-3p-YPS" firstAttribute="bottom" secondItem="kbR-nB-GZ5" secondAttribute="bottom" id="Dpl-Wh-lcu"/>
+                <constraint firstItem="kbR-nB-GZ5" firstAttribute="top" secondItem="aQG-3p-YPS" secondAttribute="top" id="HSq-vh-E0B"/>
+                <constraint firstItem="aQG-3p-YPS" firstAttribute="trailing" secondItem="kbR-nB-GZ5" secondAttribute="trailing" id="TwI-Jx-Ob9"/>
+                <constraint firstItem="kbR-nB-GZ5" firstAttribute="leading" secondItem="aQG-3p-YPS" secondAttribute="leading" id="Yax-Th-5K7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-194.20289855072465" y="-51.5625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rds-alert" width="20" height="18"/>
+    </resources>
+</document>
